@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: #4e1b5bc0;
+}
+.main-content{
+    width: 115rem;
+    height: 70rem;
+    margin: 3.6rem auto;
+    background-color: #f7f5ff;
+    padding: 1.2rem 6.4rem;
+    box-shadow: 0 3.6rem 4.8rem rgb(0, 0, 0, 0.5);
+    border-radius: 5px;
+    align-items: center;
+    overflow: hidden;
+
+}
+h3{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+nav a:link,
+nav a:visited{
+    color: #070708;
+    text-decoration: none;
+}
+nav a:active,
+nav a:hover{
+    color: #9c36b5;
+    /* text-decoration: none; */
+    transform: all 0.5s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+    font-size: 1.6rem;
+}
+.navigation-bar{
+    display: flex;
+    gap: 2.4rem;
+    padding: 2.4rem 4.8rem;
+}
+.border{
+    border-bottom: 2px solid #222;
+   width: 90rem;
+   margin: 0 auto;
+}
+.btn:link,
+.btn:visited{
+    padding: 1.2rem 2.8rem;
+    border-radius: 2.8rem;
+    color: #fff;
+    background-color: #030404;
+}
+.btn:active,
+.btn:hover{
+    padding: 1.2rem 3.0rem;
+    border-radius: 2.8rem;
+    color: #fff;
+    background-color: #9c36b5;
+    transition: all 0.10s;
+}
+h1{
+    
+    font-size: 4.8rem;
+    text-transform: uppercase;
+}
+.ui-intetrface{
+    margin-left: 3.6rem;
+}
+.ui-intetrface img{
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 100%;
+    margin-left: -1.6rem;
+}
+.customer-box{
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 3.6rem;
+}
+.customer-box p{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+button{
+    padding: 1.2rem 6rem;
+    border-radius: 20px;
+    background-color: #da77f2;
+    border-style: none;
+    color: #030404;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1.8rem;
+    margin-top: 3.6rem;
+}
+button:hover{
+    cursor: pointer;
+   background-color: #9c36b5;
+}
+.btn-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.about-us{
+    height: 20rem;
+    width: 50rem;
+    margin-top: 4.8rem;
+    background-color: #352d4c3a;
+    padding: 2.4rem 3.6rem;
+    font-size: 1.4rem;
+    justify-content: center;
+    border-radius: 12px;
+    overflow: hidden;
+   padding: 1.2rem;
+}
+.about-usbox{
+    display: flex;
+    gap: 1.6rem;
+}
+.about-us img{
+    width: 16rem;
+    height: 12rem;
+    border-radius: 11px;
+}
+.about-us span{
+    display: inline-block;
+    border: 1px solid #888;
+    padding: 0.8rem 2rem;
+    margin-top: 1.8rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.img img{
+    position: absolute;
+    top: 16rem;
+    right: 8.6rem;
+    border-radius: 15px;
+    box-shadow: 0 3.6rem 4.8rem rgb(0, 0, 0, 0.25);
+
+}
+
